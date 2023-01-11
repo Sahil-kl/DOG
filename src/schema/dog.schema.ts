@@ -8,7 +8,7 @@ export class Dog{
     name: string
 
     @Prop()
-    role: string
+    breed: string
 
     @Prop()
     age: string
