@@ -17,9 +17,8 @@ export class CreateDogDto {
 
     @IsNotEmpty()
     @ApiProperty()
-    age: string
+    age: number
 
-    @IsNotEmpty()
     @ApiPropertyOptional()
     nickName: string
 }

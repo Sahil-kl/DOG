@@ -11,7 +11,7 @@ export class Dog{
     breed: string
 
     @Prop()
-    age: string
+    age: number
 
     @Prop()
     color: string
